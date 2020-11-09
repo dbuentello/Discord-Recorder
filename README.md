@@ -1,5 +1,12 @@
 # Discord Recorder
 
+## Status
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Sense/Discord-Recorder?sort=semver)
+![GitHub](https://img.shields.io/github/license/Sense/Discord-Recorder)
+[![Sponsor Me](https://img.shields.io/static/v1?label=Sponsor%20Sense&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/sense)
+___
+
 ## About
 
 An helpful  [Discord](https://discordapp.com) voice & video recorder bot. This Recorder bot comes with a bunch of cool and powerful commands for both Discord and recording media streams.
