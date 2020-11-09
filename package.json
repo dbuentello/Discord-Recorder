@@ -1,0 +1,49 @@
+{
+  "name": "discord-recorder",
+  "version": "1.0.0",
+  "description": "Discord Recorder Bot",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sense/Discord-Recorder.git"
+  },
+  "author": "JVQ",
+  "license": "BSD ZERO-CLAUSE LICENSE (SEE LICENSE.md)",
+  "bugs": {
+    "url": "https://github.com/Sense/Discord-Recorder/issues"
+  },
+  "contributors": [
+    "Jean-Vincent QUILICHINI <jv.quilichini@gmail.com>"
+  ],
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Recorder",
+    "Streams"
+  ],
+  "homepage": "https://github.com/Sense/Discord-Recorder#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "bunyan": "^1.8.14",
+    "chalk": "^4.1.0",
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0",
+    "moment": "^2.29.1",
+    "ramda": "^0.27.1",
+    "wav": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.13.0",
+    "eslint-config-standard": "^16.0.1",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src",
+    "dev": "NODE_ENV=development nodemon --exec babel-node index.js"
+  }
+}
